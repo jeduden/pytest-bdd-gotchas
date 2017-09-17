@@ -2,6 +2,10 @@
 
 The effort to fix the pytest mark related bugs is tracked [here](https://github.com/pytest-dev/pytest/projects/1#card-4588520)
 
+## Requirements to run examples
+
+Make, Python 3.5 or 3.6
+
 ## Symptoms 
 
 ### Tests with single parameterization where values have marks -m doesn't select parameterization
