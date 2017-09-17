@@ -31,3 +31,9 @@ select_marked_params_with_ids/workaround_with_k: $(PYTEST)
 
 select_marked_params_with_ids/workaround_with_dummy_param: $(PYTEST)
 	$(PYTEST) select_marked_params_with_ids/workaround_with_dummy_param.py -vv -m MarkA
+
+parameterization_of_fixtures_for_parameterized_given/symptom: $(PYTEST)
+	$(PYTEST) parameterization_of_fixtures_for_parameterized_given/test_symptom.py
+
+parameterization_of_fixtures_for_parameterized_given/workaround_usefixtures: $(PYTEST)
+	$(PYTEST) parameterization_of_fixtures_for_parameterized_given/workaround_usefixtures.py -v
