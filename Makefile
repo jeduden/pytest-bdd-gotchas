@@ -37,3 +37,9 @@ parameterization_of_fixtures_for_parameterized_given/symptom: $(PYTEST)
 
 parameterization_of_fixtures_for_parameterized_given/workaround_usefixtures: $(PYTEST)
 	$(PYTEST) parameterization_of_fixtures_for_parameterized_given/workaround_usefixtures.py -v
+
+func_properties_as_tag_storage/symptom: $(PYTEST)
+	$(PYTEST) func_properties_as_tag_storage/test_symptom.py -v -k temp_storage 
+
+apply_tags_generate_tests_call_order/symptom: $(PYTEST)
+	$(PYTEST) apply_tags_generate_tests_call_order/test_symptom.py
