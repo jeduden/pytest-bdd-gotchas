@@ -60,7 +60,7 @@ You can use:
 
     py.test -k MarkA
 
-However, -k doesn't support operators: "AND", "OR", "NOT". 
+However, -k also supports operators: "AND", "OR", "NOT", but it applies to more that just the markers.
 It might also run tests where ids (unintentially having the same name as the mark)
 
 
